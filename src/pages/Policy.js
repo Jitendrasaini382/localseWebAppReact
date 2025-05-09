@@ -21,7 +21,7 @@ const PrivacyPolicy = () => {
           <Col lg={10} className="mx-auto">
             <div className="bg-dark bg-opacity-50 rounded-3 p-5 shadow">
               <h1 className="display-6 text-center mb-4">
-                <span className="text-success">Localse</span> Privacy Policy
+                <span className="text-success">LocalSe</span> Privacy Policy
               </h1>
               
               <p className="lead text-center opacity-75 mb-5">

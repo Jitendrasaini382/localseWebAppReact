@@ -21,11 +21,11 @@ const TermsAndConditions = () => {
           <Col lg={10} className="mx-auto">
             <div className="bg-dark bg-opacity-50 rounded-3 p-5 shadow">
               <h1 className="display-6 text-center mb-4">
-                <span className="text-success">Localse</span> Terms and Conditions
+                <span className="text-success">LocalSe</span> Terms and Conditions
               </h1>
               
               <p className="lead text-center opacity-75 mb-5">
-                Operated by Platform Localse Private Limited
+                Operated by Platform LocalSe Private Limited
               </p>
               
               <div className="bg-dark bg-opacity-25 rounded p-4">
@@ -35,7 +35,7 @@ const TermsAndConditions = () => {
                   <li className="mb-3 d-flex align-items-start">
                     <span className="text-success me-3">•</span>
                     <span className="opacity-75">
-                      Localse.in serves as a facilitator, connecting customers with contractors. We do not provide, endorse, or guarantee any of the services listed on our platform.
+                      LocalSe.in serves as a facilitator, connecting customers with contractors. We do not provide, endorse, or guarantee any of the services listed on our platform.
                     </span>
                   </li>
                   <li className="mb-3 d-flex align-items-start">
@@ -59,7 +59,7 @@ const TermsAndConditions = () => {
                   <li className="mb-3 d-flex align-items-start">
                     <span className="text-success me-3">•</span>
                     <span className="opacity-75">
-                      Localse.in is not liable for any disputes, damages, or issues between customers and contractors. We encourage resolving disputes directly, though we may assist in mediation.
+                      LocalSe.in is not liable for any disputes, damages, or issues between customers and contractors. We encourage resolving disputes directly, though we may assist in mediation.
                     </span>
                   </li>
                   <li className="d-flex align-items-start">

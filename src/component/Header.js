@@ -5,7 +5,7 @@ const NavigationBar = () => {
       <Navbar bg="dark" variant="dark" expand="md" className="bg-opacity-50 py-3">
         <Container>
           <Navbar.Brand href="/" className="fw-bold">
-            Local<span className="text-success">se</span>
+            Local<span className="text-success">Se</span>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

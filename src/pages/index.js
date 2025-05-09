@@ -46,7 +46,7 @@ const HomePage = () => {
           <Col>
             <h1 className="display-4 fw-bold mb-4">
               Discover Local Services with{" "}
-              <span className="text-success">Localse</span>
+              <span className="text-success">LocalSe</span>
             </h1>
             <p className="lead mb-5 opacity-75">
               Connect with trusted local service providers in just a few clicks.
@@ -57,7 +57,7 @@ const HomePage = () => {
               className="rounded-pill px-5"
               onClick={() => setDownloadPopupOpen(true)}
             >
-              Explore Localse
+              Explore LocalSe
             </Button>
           </Col>
         </Row>
@@ -69,7 +69,7 @@ const HomePage = () => {
       {/* Download Platform Popup */}
       <Modal show={isDownloadPopupOpen} onHide={closePopup} centered>
         <Modal.Header closeButton>
-          <Modal.Title>Download Localse</Modal.Title>
+          <Modal.Title>Download LocalSe</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <div className="d-grid gap-3">

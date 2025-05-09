@@ -5,7 +5,7 @@ const Footer = () => {
       <footer className="bg-dark bg-opacity-50 text-center py-4">
         <Container>
           <p className="mb-2 small">
-            Platform Localse Private Limited
+            Platform LocalSe Private Limited
             <br />
             Registered Address: G-39, Vardhman Grand Market, Dwarka, New Delhi
           </p>
@@ -17,7 +17,7 @@ const Footer = () => {
             <a href="/privacy" className="text-info text-decoration-none">Privacy Policy</a>
             <a href="/disclaimer" className="text-info text-decoration-none">Disclaimer</a>
           </div>
-          <p className="small">© 2025 Platform Localse Private Limited. All Rights Reserved</p>
+          <p className="small">© 2025 Platform LocalSe Private Limited. All Rights Reserved</p>
         </Container>
       </footer>
     );

@@ -21,7 +21,7 @@ const Disclaimer = () => {
           <Col lg={10} className="mx-auto">
             <div className="bg-dark bg-opacity-50 rounded-3 p-5 shadow">
               <h1 className="display-6 text-center mb-4">
-                <span className="text-success">Localse</span> Disclaimer
+                <span className="text-success">LocalSe</span> Disclaimer
               </h1>
               
               <p className="lead text-center opacity-75 mb-5">
@@ -35,7 +35,7 @@ const Disclaimer = () => {
                   <li className="mb-3 d-flex align-items-start">
                     <span className="text-success me-3">•</span>
                     <span className="opacity-75">
-                      Localse.in does not offer or manage services directly. We provide a platform to connect customers and contractors.
+                      LocalSe.in does not offer or manage services directly. We provide a platform to connect customers and contractors.
                     </span>
                   </li>
                   <li className="mb-3 d-flex align-items-start">
@@ -47,7 +47,7 @@ const Disclaimer = () => {
                   <li className="d-flex align-items-start">
                     <span className="text-success me-3">•</span>
                     <span className="opacity-75">
-                      Localse.in is not responsible for any disputes, damages, or losses resulting from service engagements. Users agree to accept these risks when using the platform.
+                      LocalSe.in is not responsible for any disputes, damages, or losses resulting from service engagements. Users agree to accept these risks when using the platform.
                     </span>
                   </li>
                 </ul>
