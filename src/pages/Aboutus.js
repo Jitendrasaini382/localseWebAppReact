@@ -20,7 +20,7 @@ const AboutUs = () => {
         <Row>
           <Col>
             <h1 className="display-4 fw-bold mb-4">
-              About <span className="text-success">LocalSe</span>
+              About LocalSe
             </h1>
             <p className="lead mb-5 opacity-75">
               Connecting customers directly with verified local service providers, 

@@ -46,7 +46,7 @@ const HomePage = () => {
           <Col>
             <h1 className="display-4 fw-bold mb-4">
               Discover Local Services with{" "}
-              <span className="text-success">LocalSe</span>
+              <span className="">LocalSe</span>
             </h1>
             <p className="lead mb-5 opacity-75">
               Connect with trusted local service providers in just a few clicks.
