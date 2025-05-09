@@ -14,25 +14,20 @@ import Footer from "../component/Footer";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 const HomePage = () => {
-  const [isPopupOpen, setPopupOpen] = useState(false);
-  const [isPlatformPopupOpen, setPlatformPopupOpen] = useState(false);
-  const [selectedUserType, setSelectedUserType] = useState(null);
-
-  const handleUserTypeSelect = (type) => {
-    setSelectedUserType(type);
-    setPopupOpen(false);
-    setPlatformPopupOpen(true);
-  };
+  const [isDownloadPopupOpen, setDownloadPopupOpen] = useState(false);
 
   const closePopup = () => {
-    setPopupOpen(false);
-    setPlatformPopupOpen(false);
-    setSelectedUserType(null);
+    setDownloadPopupOpen(false);
   };
 
   const handlePlatformDownload = (platform) => {
-    window.location.href = `/download-apps?platform=${platform}`;
+    if (platform === "android") {
+      window.location.href = "https://play.google.com/store/apps/details?id=com.localse";
+    } else if (platform === "ios") {
+      window.location.href = "https://apps.apple.com/in/app/localse/id6743470526";
+    }
   };
+
 
   return (
     <div
@@ -60,7 +55,7 @@ const HomePage = () => {
               variant="outline-light"
               size="lg"
               className="rounded-pill px-5"
-              onClick={() => setPopupOpen(true)}
+              onClick={() => setDownloadPopupOpen(true)}
             >
               Explore Localse
             </Button>
@@ -69,44 +64,12 @@ const HomePage = () => {
       </Container>
 
       {/* Footer */}
-     <Footer/>
+      <Footer />
 
-      {/* First Popup */}
-      <Modal show={isPopupOpen} onHide={closePopup} centered>
+      {/* Download Platform Popup */}
+      <Modal show={isDownloadPopupOpen} onHide={closePopup} centered>
         <Modal.Header closeButton>
-          <Modal.Title>Welcome to Localse</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <div className="d-grid gap-3">
-            <Button
-              variant="primary"
-              size="lg"
-              onClick={() => handleUserTypeSelect("Customer")}
-            >
-              Customer
-            </Button>
-            <Button
-              variant="primary"
-              size="lg"
-              onClick={() => handleUserTypeSelect("Partner")}
-            >
-              Partner
-            </Button>
-            <Button
-              variant="primary"
-              size="lg"
-              onClick={() => handleUserTypeSelect("Agent")}
-            >
-              Agent
-            </Button>
-          </div>
-        </Modal.Body>
-      </Modal>
-
-      {/* Platform Download Popup */}
-      <Modal show={isPlatformPopupOpen} onHide={closePopup} centered>
-        <Modal.Header closeButton>
-          <Modal.Title>Download {selectedUserType} Platform</Modal.Title>
+          <Modal.Title>Download Localse</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <div className="d-grid gap-3">
