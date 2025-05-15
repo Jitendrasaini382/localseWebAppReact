@@ -1,0 +1,11 @@
+[
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.localse",
+        "sha256_cert_fingerprints":
+          ["BB:32:CB:83:4E:A1:3C:18:2C:F1:A2:8A:44:0E:62:52:BD:C1:02:21:27:82:35:C5:ED:81:70:70:CD:BA:B5:90"]
+      }
+    }
+  ]
