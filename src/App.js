@@ -25,7 +25,7 @@ function App() {
         <Route path="/terms" element={<TermsAndConditions />} />
         <Route path="/privacy" element={<PrivacyPolicy />} />
         <Route path="/disclaimer" element={<Disclaimer />} />
-        <Route path="/whatsapp" element={<WhatsappRedirect />} /> {/* 👈 new route */}
+        <Route path="/download_app" element={<WhatsappRedirect />} /> {/* 👈 new route */}
       </Routes>
     </Router>
   );
