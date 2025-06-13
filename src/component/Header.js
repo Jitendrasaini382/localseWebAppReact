@@ -11,6 +11,7 @@ const NavigationBar = () => {
             <Nav className="ms-auto">
               <Nav.Link href="/" className="text-white">Home</Nav.Link>
               <Nav.Link href="/about-us" className="text-white">About Us</Nav.Link>
+              <Nav.Link href="Blogs" className="text-white">Blogs</Nav.Link>
               <Nav.Link href="/contact-us" className="text-white">Contact Us</Nav.Link>
             </Nav>
           </Navbar.Collapse>
