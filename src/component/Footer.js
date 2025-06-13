@@ -1,6 +1,13 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedinIn,
+  FaYoutube,
+  FaRedditAlien,
+  FaPinterestP,
+} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -37,32 +44,54 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="text-white"
+            aria-label="Instagram"
           >
             <FaInstagram size={20} />
           </a>
           <a
-            href="https://www.facebook.com/profile.php?id=61575924641843"
+            href="https://www.facebook.com/people/LocalSe/61575924641843/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white"
+            aria-label="Facebook"
           >
             <FaFacebookF size={20} />
           </a>
           <a
-            href="https://www.linkedin.com/company/localseindiai/?viewAsMember=true"
+            href="https://www.linkedin.com/company/localseindiai/about/?viewAsMember=true"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white"
+            aria-label="LinkedIn"
           >
             <FaLinkedinIn size={20} />
+          </a>
+          <a
+            href="https://www.reddit.com/user/Chance-Macaron-1016/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white"
+            aria-label="Reddit"
+          >
+            <FaRedditAlien size={20} />
           </a>
           <a
             href="https://www.youtube.com/@PlatformLocalse"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white"
+            aria-label="YouTube"
           >
             <FaYoutube size={20} />
+          </a>
+          <a
+            href="https://www.pinterest.com/awareness0182/?invite_code=91d5b73214994c3ab0e52d2c9bfb439e&sender=930908322885037777"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white"
+            aria-label="Pinterest"
+          >
+            <FaPinterestP size={20} />
           </a>
         </div>
 
