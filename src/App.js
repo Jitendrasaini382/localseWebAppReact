@@ -16,6 +16,7 @@ import Disclaimer from "./pages/Disclaier";
 import WhatsappRedirect from "./pages/WhatsappRedirect"; // 👈 You'll create this
 import Blogs from "./pages/Blogs";
 import BlogDetail from "./pages/BlogDetails";
+import PaymentReceipt from "./pages/PaymentReceipt";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path="/blogs" element={<Blogs />} /> {/* 👈 new route */}
         <Route path="/blog_detail" element={<BlogDetail/>} />
         <Route path="/download_app" element={<WhatsappRedirect />} /> {/* 👈 new route */}
+        <Route path="/payment_receipt" element={<PaymentReceipt/>}/>
       </Routes>
     </Router>
   );
