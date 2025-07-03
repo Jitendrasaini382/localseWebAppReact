@@ -1,0 +1,16 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": [ "RAN729V3XD.com.localse" ],
+        "components": [
+          {
+            "/": "*",
+            "comment": "Matches all paths on localse.in"
+          }
+        ]
+      }
+    ]
+  }
+}
